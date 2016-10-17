@@ -1,0 +1,19 @@
+<beans xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
+       version="1.1" bean-discovery-mode="all">
+
+  <alternatives>
+    <class>org.agoncal.book.javaee7.chapter02.ex14.MockGenerator14</class>
+  </alternatives>
+
+  <interceptors>
+    <class>org.agoncal.book.javaee7.chapter02.ex29.LoggingInterceptor29</class>
+    <class>org.agoncal.book.javaee7.chapter02.ex33.LoggingInterceptor33</class>
+    <class>org.agoncal.book.javaee7.chapter02.ex33.AuditInterceptor33</class>
+  </interceptors>
+
+  <decorators>
+    <class>org.agoncal.book.javaee7.chapter02.ex34.FromEightToThirteenDigitsDecorator34</class>
+  </decorators>
+</beans>
