@@ -28,10 +28,10 @@
   <properties>
     <version.java>1.7</version.java>
     <!-- Java EE -->
-    <version.glassfish>4.0-b87</version.glassfish>
-    <version.javaee>7.0-b79</version.javaee>
+    <version.glassfish>4.0-b90</version.glassfish>
+    <version.javaee>7.0</version.javaee>
     <version.weld>2.0.0.Final</version.weld>
-    <version.jersey>2.0-rc1</version.jersey>
+    <version.jersey>2.0</version.jersey>
     <version.eclipselink>2.5.0</version.eclipselink>
     <version.hibernate.validator>5.0.1.Final</version.hibernate.validator>
     <version.el>3.0-b07</version.el>
