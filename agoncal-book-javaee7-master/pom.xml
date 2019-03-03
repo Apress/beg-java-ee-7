@@ -217,7 +217,6 @@
         <configuration>
           <skipTests>${skipUTs}</skipTests>
           <argLine>-Duser.language=en -Duser.country=EN</argLine>
-          <!--parallel>classes</parallel-->
         </configuration>
       </plugin>
       <plugin>
